@@ -31,7 +31,7 @@ ruleTester.run('api-imports', rule, {
         },
         {
             filename:
-                'C:\\Users\\tim\\Desktop\\javascript\\production_project\\src\\entities\\file.test.ts',
+                'C:/Users/tim/Desktop/javascript/production_project/src/entities/file.test.ts',
             code: "import { addCommentFormActions, addCommentFormReducer } from '@/entities/Article/testing'",
             errors: [],
             options: aliasOptions,
@@ -75,7 +75,7 @@ ruleTester.run('api-imports', rule, {
             errors: [
                 {
                     message:
-                        'Тестовые данные необходимо импортировать из publicApi/testing.ts',
+                        'Тестовые данные необходимо импортировать только в файлы с тестовыми расширениями.',
                 },
             ],
             options: aliasOptions,
