@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-api-imports-svt",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "plugin to control imports from a module",
     "keywords": [
         "eslint",
